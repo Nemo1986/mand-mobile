@@ -114,9 +114,9 @@ const rollupPluginFactory = async () =>  {
   })),
 
   // dest
-  uglify({
-    compress: {},
-  }),
+  //uglify({
+   // compress: {},
+  //}),
   fillHtmlPlugin({
     template: resolve('examples/index.html'),
     // publicPath: '/mand-mobile/examples/',
